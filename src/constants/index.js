@@ -1,4 +1,20 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  customerCare,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -10,7 +26,7 @@ export const navLinks = [
     title: "Features",
   },
   {
-    id: "product",
+    id: "programs-services",
     title: "Product",
   },
   {
@@ -23,23 +39,28 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "High Returns",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Competitive rates and optimized strategies for maximum profitability",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Secure Platform",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "State-of-the-art security measures to safeguard your investments.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Transparent Operations",
+    content: "Real-time tracking and detailed reporting.",
+  },
+  {
+    id: "feature-4",
+    icon: customerCare,
+    title: "Dedicated Support",
+    content: "24/7 expert support to assist you every step of the way.",
   },
 ];
 
@@ -47,29 +68,49 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "I never thought growing my wealth could be this simple. Staking on this platform has provided consistent returns, and I can focus on my business without any worries.",
+    name: "Sarah p.",
+    title: "Entrepreneur",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "The mining program has been a game-changer for me. It’s secure, transparent, and the payouts are always on time. Highly recommend it!",
+    name: "John D",
+    title: "Freelancer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "    Polymatrix helped me diversify my portfolio with ease. The team’s expertise and the platform’s security give me confidence in every investment I make ",
+    name: "Micheal T",
+    title: "Crypto Enthusiast",
     img: people03,
   },
 ];
 
+export const programs = [
+  {
+    title: "Staking",
+    description:
+      "Earn passive income with our secure and high-yield staking programs. Supported cryptocurrencies include ETH, SOL, ADA, and more.",
+    link: "https://rwa.polyfarm.tech/",
+  },
+  {
+    title: "Crypto Mining",
+    description:
+      "Join our efficient and eco-friendly mining network to mine top cryptocurrencies seamlessly, maximizing your returns while minimizing your carbon footprint.",
+    link: "https://miner.polyfarm.tech/",
+  },
+  {
+    title: "Polymatrix Program",
+    description:
+      "Leverage innovative blockchain technologies to diversify and maximize your portfolio with the Polymatrix program. Enjoy cutting-edge solutions for better returns.",
+    link: "https://app.polyfarm.tech/",
+  },
+];
 export const stats = [
   {
     id: "stats-1",
@@ -87,6 +128,11 @@ export const stats = [
     value: "$230M+",
   },
 ];
+export const linkOptions = [
+  { title: "Staking", link: "https://rwa.polyfarm.tech/" },
+  { title: "Mining", link: "https://miner.polyfarm.tech/" },
+  { title: "Polymatrix", link: "https://app.polyfarm.tech/" },
+];
 
 export const footerLinks = [
   {
@@ -100,10 +146,7 @@ export const footerLinks = [
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
       },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
+
       {
         name: "Explore",
         link: "https://www.hoobank.com/explore/",
@@ -125,14 +168,7 @@ export const footerLinks = [
         name: "Partners",
         link: "https://www.hoobank.com/partners/",
       },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
+
       {
         name: "Newsletters",
         link: "https://www.hoobank.com/newsletters/",

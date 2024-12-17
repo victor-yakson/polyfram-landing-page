@@ -4,12 +4,13 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./polyfarmcoin.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import robot from "./robot.webp";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
+import customerCare from "./customer-service-support.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -37,6 +38,7 @@ export {
   send,
   shield,
   star,
+  customerCare,
   menu,
   close,
   google,
